@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.out{
+			height: 0px;
+			width: 0px;
+			border-top: 60px solid transparent;
+			border-bottom: 60px solid transparent;
+			border-right: 60px solid transparent;
+			border-left: 60px solid yellow;
+			transform: rotate(-90deg);
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="out">
+	</div>
+</body>
+</html>
