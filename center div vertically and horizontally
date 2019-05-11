@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		.out{
+			height: 400px;
+			width: 400px;
+			position: relative;
+			background-color: yellow;
+			box-sizing: border-box;
+			border: 20px solid red;
+		}
+		#outer{
+			background-color: purple;
+		}
+		.in{
+			height: 100px;
+			width: 100px;
+			position: absolute;
+			background-color: yellow;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="out" id="outer" style="background-color: black;">
+		<div class="in">
+			
+		</div>
+	</div>
+</body>
+</html>
